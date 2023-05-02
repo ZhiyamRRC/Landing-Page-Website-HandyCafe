@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandyCafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">HandyCafe</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact-us" class="navbar__links" id="contact-page">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"><span>HandyCafe</span></h1>
+            <p class="hero__description">We care your device...</p>
+            <button class="main__btn"><a href="#about">Explore</a></button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><img src="img/about.png" alt="about"></div>
+            </div>
+            <div class="main__content">
+                <h1>What do we do?</h1>
+                <h2>We provide hardware and software solutions for PCs and Mobiles</h2>
+                <p>Feel free to call us to lean more about our services</p>
+                <button class="main__btn"><a href="/">Call Now</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h1>Our Services</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <img src="img/card1.png" alt="Repairing">
+                <h2>Repairing</h2>
+                <p>Instant solutions for all kind of hardware problems.</p>
+                <div class="services__btn"><button>More Info</button></div>
+            </div>
+            <div class="services__card" id="card-2">
+                <img src="img/card2.png" alt="Installation & Licencing">
+                <h2>Installation & Licencing</h2>
+                <p>Os, Software installation and licencing.</p>
+                <div class="services__btn"><button>More Info</button></div>
+            </div>
+            <div class="services__card">
+                <img src="img/card3.png" alt="Troubleshooting">
+                <h2>Troubleshooting</h2>
+                <p>Possible solutions for all kind of software issues.</p>
+                <div class="services__btn"><button>More Info</button></div>
+            </div>
+            <div class="services__card" id="card-2">
+                <img src="img/card4.png" alt="Custom PC Building">
+                <h2>Custom PC Building</h2>
+                <p>PC builds for Gaming, Working and Studing.</p>
+                <div class="services__btn"><button>More Info</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact-Us Section -->
+    <div class="main" id="contact-us">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Contact Us</h1>
+                <h2>How to Reach Us?</h2>
+                <p>
+                <ol>
+                    <li>Choose a contact method among <i class="fab fa-facebook"></i> and <i class="fab fa-whatsapp"></i>.</li>
+                    <li>Contact us using the selected method.</li>
+                    <li>Get a quote or info about our services.</li>
+                </ol>
+                </p>
+            </div>
+            <div class="main__content linear__gradient">
+                <table>
+                    <tr>
+                        <td id="td-1"><i class="fab fa-facebook"></i></td>
+                        <td id="td-2"><a href="/">Follow Us on Facebook</a></td>
+                    </tr>
+                    <tr>
+                        <td id="td-1"><i class="fab fa-youtube"></i></td>
+                        <td id="td-2"><a href="/">Subscribe Us on Youtube</a></td>
+                    </tr>
+                    <tr>
+                        <td id="td-1"><i class="fab fa-whatsapp"></i></td>
+                        <td id="td-2"><a href="/">Join Us on WhatsApp</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Navigation</h2>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact-us">Contact Us</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Usefull Links</h2>
+                    <a href="/">FAQ</a>
+                    <a href="/">Terms of Use</a>
+                    <a href="/">Donate Us</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Facebook</a>
+                    <a href="/">WhatsApp</a>
+                    <a href="/">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">HandyCafe</a>
+                </div>
+                <p class="website__rights">© HandyCafe 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
